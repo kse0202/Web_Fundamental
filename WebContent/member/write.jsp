@@ -67,7 +67,7 @@
 		  <div class="form-group row">
 		    <label for="phone" class="col-sm-2 col-form-label">핸드폰 번호</label>
 		    <div class="col-sm-10">
-		      <input type="number" class="form-control" id="phone" name="phone">
+		      <input type="text" class="form-control" id="phone" name="phone">
 		       <div id = "phoneMessage"></div>
 		    </div>
 		  </div>

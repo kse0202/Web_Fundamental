@@ -49,7 +49,12 @@
 		</form>
 		<div class="text-right">
 			<a href="list.jsp?page=<%=cPage %>" class="btn btn-outline-secondary">목록</a>
+			<% if(memberDto != null)
+				//헤더를 인클루드 해서 memberDto 사용 가능
+				//로그인 한 사람만 저장 가능 하게 만든다. 
+			{ %> 
 			<button type="button" id="saveDept" class="btn btn-outline-success">저장</button>
+			<%} %>
         </div>
       </div>
     </div>

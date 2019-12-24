@@ -48,18 +48,7 @@
     </ol>
   </nav>
   <!-- breadcrumb end-->
-  <%
-  	int cPage = 0;
-	String tempPage = request.getParameter("page");
-	if(tempPage == null || tempPage.length()==0){
-		cPage = 1;
-	}
-	try{
-		cPage = Integer.parseInt(tempPage);
-	}catch(NumberFormatException e){
-		cPage = 1;
-	}
-  %>
+
   <!-- main start-->
   <div class="container">
     <div class="row">
