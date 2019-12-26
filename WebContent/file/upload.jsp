@@ -39,6 +39,7 @@
 	String uploadName = multi.getOriginalFileName("file");
 	File f1 = new File(f, fileName);
 	long fileSize = f1.length()/1024;
+	
 %>
 
 name : <%=name %><br>
